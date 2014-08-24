@@ -1,0 +1,68 @@
+.section .reveal .state-background {
+  background-image:url("diamond1.png");
+  background-size:300px 300px;
+  background-repeat: no-repeat;
+  background-position: 20% 85%;
+  background-color:black;
+} 
+
+.section .reveal h1,
+.section .reveal h2,
+.section .reveal h3,
+.section .reveal h4,
+.section .reveal p {
+  color: white;
+}
+
+.slide1 .reveal .state-background {
+  background-image:url("SLIDE1.jpg");
+  background-size:cover; 
+} 
+
+.slide1 .reveal h1,
+.slide1 .reveal h2,
+.slide1 .reveal p {
+  color: white;
+}
+
+.slide2 .reveal .state-background {
+  background-image:url("SLIDE2.jpg");
+  background-size:cover; 
+} 
+
+.slide2 .reveal title,
+.slide2 .reveal h1,
+.slide2 .reveal h2,
+.slide2 .reveal h3,
+.slide2 .reveal h4,
+.slide2 .reveal p {
+  color: white;
+}
+
+.slide3 .reveal .state-background {
+  background-image:url("SLIDE3.jpg");
+  background-size:cover; 
+} 
+
+.slide3 .reveal title,
+.slide3 .reveal h1,
+.slide3 .reveal h2,
+.slide3 .reveal h3,
+.slide3 .reveal h4,
+.slide3 .reveal p {
+  color: white;
+}
+
+.slide4 .reveal .state-background {
+  background-image:url("SLIDE4.png");
+  background-size:cover; 
+} 
+
+.slide4 .reveal title,
+.slide4 .reveal h1,
+.slide4 .reveal h2,
+.slide4 .reveal h3,
+.slide4 .reveal h4,
+.slide4 .reveal p {
+  color: white;
+}

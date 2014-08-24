@@ -1,0 +1,80 @@
+Pricing The Rock
+========================================================
+author: phseven@gmail.com
+transition: rotate   
+     
+#### Estimating Value of a Diamond From Its Features
+
+
+Your Plan
+========================================================
+type: slide1
+
+Maybe your strategy is to ask for Her hand in marriage while 
+
+vacationing at an island in Greece...
+
+# Or
+    
+perhaps you want to eliminate all resistance by first...
+
+
+========================================================
+type: slide2
+
+# Making Her Very Seasick
+           
+     
+But, to succeed,    
+      
+       
+all your plans     
+         
+                   
+will hinge upon...  
+      
+          
+         
+# The Diamond Ring  
+
+
+Clueless About Diamonds ?   
+========================================================
+type: slide3
+   
+# You are not alone
+
+
+Most unmarried men are   
+      
+      
+It is confusing...
+
+```{r, echo=FALSE}
+
+require(ggplot2)
+require(data.table)
+
+dia1 <- as.data.table(diamonds)
+minPrice <- as.integer(dia1[ carat == 1, min(floor(price/100)*100)])
+maxPrice <- as.integer(dia1[ carat == 1, max(floor(price/100)*100)])
+
+```
+
+Price of a 1 carat diamond can range anywhere between    
+     
+`r minPrice` to `r maxPrice` US dollars     
+      
+#### Check Our Free Website To Learn More About Diamonds
+     
+```     
+http://phseven.shinyapps.io/DataProd/
+```
+
+========================================================
+type: slide4
+   
+
+
+
+
